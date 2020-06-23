@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main/main.css">
+    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <h1
+            data-sal-duration = "1200"
+            data-sal= "slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease-out-bounce">
+            Scroll me baby, <br>oh yeah</h1>
+    </section>
+      
+    <section>
+        <div class="left"
+            data-sal-duration = "1200"
+            data-sal= "slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease-out-bounce"
+        >
+        <h3>Look at me, weee</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et voluptates expedita sunt dolorem asperiores officiis architecto possimus nam ut qui, illum quasi quas veritatis consectetur tempora laborum, dignissimos beatae!</p>
+    </div>
+    <div class="right"
+    data-sal-duration = "1200"
+    data-sal= "slide-down"
+    data-sal-delay="600"
+    data-sal-easing="ease-out-bounce"
+    >
+        <img src="img/swipe.svg">
+    </div>
+    </section>
+
+    <section>
+        <div class="one"
+                data-sal-duration = "1200"
+                data-sal= "slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-bounce"
+        >
+            <h3>Keep</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        </div>
+       
+        <div class="two"
+        data-sal-duration = "1200"
+        data-sal= "slide-up"
+        data-sal-delay="500"
+        data-sal-easing="ease-out-bounce"
+        >
+        <h3>It</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+    </div>
+
+    <div class="three"
+        data-sal-duration = "1200"
+        data-sal= "slide-up"
+        data-sal-delay="700"
+        data-sal-easing="ease-out-bounce"
+    >
+        <h3>Scrolling</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+    </div>
+
+    </section>
+    <script src="./node_modules/sal.js/dist/sal.js"></script>
+    <script>
+       sal({
+  threshold: 1,
+  once: false,
+}); 
+    </script>
+</body>
+</html>
